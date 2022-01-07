@@ -11,6 +11,10 @@ const contract_address = '0x69845F55818bbDF5B319cd896C11B37fbF272e9d'
 
 import abi from '../contracts/App_sol_App.json'
 
+async function getMetaMaskAddress() {
+  var x = await (window).ethereum.enable();
+  return x[0]
+}
 function setupAccounts() {
   fetchUserItems('keys').then((key) => {
     
@@ -53,4 +57,4 @@ function generateKeys() {
   return { pub, key, address }
 }
 
-export { generateKeys, contract, contractws, setupAccounts }
+export { generateKeys, contract, contractws, setupAccounts, getMetaMaskAddress }
