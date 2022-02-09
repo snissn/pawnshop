@@ -17,7 +17,7 @@ async function getMetaMaskAddress() {
 }
 function setupAccounts() {
   fetchUserItems('keys').then((key) => {
-
+    
     if (!key || !key.auth || !key.status) {
       return
     }

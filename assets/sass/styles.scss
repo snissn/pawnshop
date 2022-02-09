@@ -28,27 +28,3 @@ $body-background-color: #4cb1f7;
 .navbar-end .navbar-item.has-dropdown img {
   max-height: 100%;
 }
-
-.nft-card {
-  height: 100%;
-
-  .card-image {
-    padding: 0.5rem;
-
-    img {
-      object-fit: contain;
-    }
-  }
-
-  .media {
-    align-items: center;
-  }
-
-  .title {
-    font-size: 1.375rem;
-  }
-
-  .subtitle {
-    font-size: 1rem;
-  }
-}

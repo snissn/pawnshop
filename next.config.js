@@ -9,7 +9,5 @@ module.exports = {
         REACT_APP_MEASUREMENT_ID: process.env.REACT_APP_MEASUREMENT_ID,
         REACT_APP_GOOGLE_AUTH_DOMAIN: process.env.REACT_APP_GOOGLE_AUTH_DOMAIN,
         REACT_APP_BACKEND_URL: process.env.REACT_APP_BACKEND_URL,
-        OPENSEA_API_URL: process.env.OPENSEA_API_URL,
-        TESTNET_OPENSEA_API_URL: process.env.TESTNET_OPENSEA_API_URL,
     },
 };
